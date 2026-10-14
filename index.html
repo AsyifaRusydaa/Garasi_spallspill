@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Garasi SpallSpill</title>
+<meta name="description" content="Etalase spill produk Shopee pilihan Garasi SpallSpill.">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Gloock&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="wrap">
+  <img class="logo" src="logo.jpg" alt="Logo Garasi SpallSpill">
+  <h1>Garasi SpallSpill</h1>
+  <p class="tagline">Etalase produk Shopee pilihan. Sebut nomornya, langsung ketemu.</p>
+</header>
+
+<div class="cari-bar">
+  <div class="wrap">
+    <div class="cari-box">
+      <input id="cari" type="search" inputmode="search" autocomplete="off" enterkeyhint="search"
+             placeholder="Cari nomor atau nama produk" aria-label="Cari nomor atau nama produk">
+      <button class="hapus" id="hapus" type="button" aria-label="Hapus pencarian">&times;</button>
+    </div>
+    <p class="info" id="info" aria-live="polite"></p>
+  </div>
+</div>
+
+<main class="wrap">
+  <div id="contoh"></div>
+  <ul class="grid" id="grid"></ul>
+  <div id="status"></div>
+  <div class="muat-wrap" id="muatWrap" hidden>
+    <button class="muat" id="muat" type="button">Muat lagi</button>
+  </div>
+  <div id="sentinel"></div>
+</main>
+
+<footer class="wrap">
+  <p>Beberapa link di sini adalah link afiliasi Shopee. Kalau kamu belanja lewat link ini, aku dapat komisi kecil tanpa biaya tambahan untukmu.</p>
+  <p>Harga dan stok bisa berubah sewaktu-waktu. Cek langsung di Shopee.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
